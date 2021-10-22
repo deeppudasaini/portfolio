@@ -15,7 +15,7 @@ class Project extends Component {
   };
 
   async componentDidMount() {
-    const api_key = "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";
+    const api_key = process.env.REACT_APP_GITHUB_API_KEY;
 
     let repos = await Axios.get(
       `https://api.github.com/users/${USER_NAME}/repos`,
