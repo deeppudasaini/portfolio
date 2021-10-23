@@ -3,9 +3,8 @@ import Axios from "axios";
 
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { Zoom } from "react-reveal";
-import { Grid } from "@material-ui/core";
-import { USER_NAME } from "../../Data/api";
+import { Bounce } from "react-reveal";
+import {Fade} from 'react-reveal';
 import "./project.css";
 class Project extends Component {
   Title = [];
@@ -18,12 +17,7 @@ class Project extends Component {
     const api_key = process.env.REACT_APP_GITHUB_API_KEY;
 
     let repos = await Axios.get(
-      `https://api.github.com/users/${USER_NAME}/repos`,
-      {
-        headers: {
-          Authorization: `token ${api_key}`
-        }
-      }
+      `https://api.github.com/users/deeppudasaini/repos`,
     );
 
     let lang = {};
@@ -75,12 +69,15 @@ class Project extends Component {
       }
     };
     return (
+      <Bounce top duration={3000}>
       <div className="project" id="project">
-        <Zoom top duration={2000}>
+        
           <h1 className="experience-heading">Projects</h1>
           <Carousel responsive={responsive}>
             {filtered.map((data, i) => (
-              <div class="max-w-md py-4 px-8 bg-white shadow-lg rounded-lg my-10 mx-10">
+              
+              
+              <div class="max-w-md py-4 px-8 bg-white shadow-lg rounded-lg my-5 mx-10">
                 <div class="flex justify-center md:justify-end -mt-16">
                   <img
                     class="w-20 h-20 object-cover rounded-full border-2 border-indigo-500"
@@ -101,10 +98,14 @@ class Project extends Component {
                   </a>
                 </div>
               </div>
+              
             ))}
+            
           </Carousel>
-        </Zoom>
+           
       </div>
+      </Bounce>   
+      
     );
   }
 }
