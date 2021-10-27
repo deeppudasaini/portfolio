@@ -5,6 +5,7 @@ const experience=require('./routes/experience');
 const education=require('./routes/education');
 const skill=require('./routes/skill');
 const introduction=require('./routes/introduction');
+const contact=require('./routes/contact');
 const connectDb= require('./db/connect.js');
 // const notFound= require('./middlewares/404notfound');
 require('dotenv').config();
@@ -16,6 +17,8 @@ app.use(express.json());
 app.use('/api/experiences',experience);
 app.use('/api/educations',education);
 app.use('/api/skills',skill);
+app.use('/api/contacts',contact);
+app.use('/api/introductions',introduction);
 
 const port=5000;
 const start=async()=>{
