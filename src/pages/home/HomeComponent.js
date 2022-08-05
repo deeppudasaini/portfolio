@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Header from "../../components/header/Header";
+import HeaderComponent from "../../components/header/Header";
 import Greeting from "../../containers/greeting/Greeting";
 import Skills from "../../containers/skills/Skills";
 import Footer from "../../components/footer/Footer";
@@ -9,7 +9,7 @@ class HomeComponent extends Component {
   render() {
     return (
       <div>
-        <Header theme={this.props.theme} />
+        <HeaderComponent theme={this.props.theme} />
         <Greeting theme={this.props.theme} />
         <Skills theme={this.props.theme} />
         <Footer theme={this.props.theme} />
