@@ -1,0 +1,45 @@
+{
+    "data": [{
+            "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+            "name": "Exploratory Data Analysis of Zomato Data set",
+            "createdAt": "https://github.com/deeppudasaini/ZomatoDataset-EDA",
+            "description": "Analysed Dataset with interactive functions and visualizations which results in different kind of observations on Zomato transaction whole over the world."
+        },
+        {
+            "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
+            "name": "Fake News Predictor Using Logistic Regression",
+            "createdAt": "https://github.com/deeppudasaini/Fake_News_Predictor_Using_Logistic_Regression",
+            "description": "Predict fake news from the dataset by creating model based on Logistic Regression Algorithm. Uses Stemmer function to filter keyword and used to fit the model with train and test set."
+        },
+        {
+            "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNze=",
+            "name": "Diabetes Prediction Model",
+            "createdAt": "https://github.com/deeppudasaini/Diabetes-Prediction-Model",
+            "description": "Predict Diabetes from different features of the dataset and uses Simple Vector Machine Algorithm to create a predictive model for Diabetes. Created a Flask web application with form to predict diabetes using the predictive model."
+        },
+        {
+            "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzt=",
+            "name": "Bank Purchase Prediction and Deployment Using AWS Sage Maker",
+            "createdAt": "https://github.com/deeppudasaini/AWS-Sagemaker-BankPurchase",
+            "description": "Used different AWS services to create model which predict the purchase availability of bank. Uses AWS Sagemaker for model building with boto3, S3 bucket to retrieve and save datases and models and Use EC2 machine to deploy the created model."
+        },
+        {
+            "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
+            "name": "Car Sells Prediction",
+            "createdAt": "https://github.com/deeppudasaini/DataScience-CarSellingPricePrediction",
+            "description": "Uses Random Forest Regression algorithm to create a predictive model for sells price prediction of cars. Different Pre-processing and Data Cleaning methods were implemented before fitting the model."
+        },
+        {
+            "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
+            "name": "Facial Emotion Detection Using DCNN",
+            "createdAt": "https://github.com/deeppudasaini",
+            "description": "Researched on sentiment analysis through facial emotion recognition, using a DCNN. Created a model to detect seven different emotions, trained and tested with the FER2013 dataset. Implemented model to detect seven different emotions using seven different emotions in web application."
+        },
+        {
+            "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
+            "name": "Lung Cancer Detection with Lung Segmentation Using Deep Learning",
+            "createdAt": "https://drive.google.com/file/d/1kcILlUTWN3ekBeXfOIF9xp9jba7UGPr9/view?usp=sharing",
+            "description": "Using the Open Source Project different approaches on Lung cancer detection were researched. Different literature reviews were conducted and researched on the best solution for lung cancer detection after segmentation of lungs. "
+        }
+    ]
+}

@@ -1,11 +1,21 @@
-import "./styles.css";
-import "./tailwind.css";
+import React from "react";
+import "./App.css";
+import Main from "./containers/Main";
+import { ThemeProvider } from "styled-components";
+import { chosenTheme } from "./theme";
+import { GlobalStyles } from "./global";
 
-import Body from "./Components/Body";
-export default function App() {
+function App() {
   return (
-    <div className="App">
-      <Body />
-    </div>
+    <ThemeProvider theme={chosenTheme}>
+      <>
+        <GlobalStyles />
+        <div>
+          <Main theme={chosenTheme} />
+        </div>
+      </>
+    </ThemeProvider>
   );
 }
+
+export default App;
