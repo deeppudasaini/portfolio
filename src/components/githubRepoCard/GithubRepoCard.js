@@ -3,7 +3,7 @@ import ProjectLanguages from "../../components/projectLanguages/ProjectLanguages
 import "./GithubRepoCard.css";
 import { Fade } from "react-reveal";
 import {useState} from "react";
-import Button from "../../components/button/Button";
+
 export default function GithubRepoCard({ repo, theme }) {
   const [readMore, setReadMore] = useState(false);
   function openRepoinNewTab(url) {
@@ -40,7 +40,7 @@ export default function GithubRepoCard({ repo, theme }) {
             e.preventDefault();
             setReadMore(!readMore);
           }}
-          
+          href="#"
            >{readMore?"Read Less":"Read More"}</a>
           <div className="repo-details">
             <p

@@ -5,7 +5,7 @@ import { useState } from "react";
 export default function GithubRepoCard({ repo, theme }) {
   const [readMore, setReadMore] = useState(false);
   function openRepoinNewTab(createdAt) {
-    var win = window.open(createdAt, "_blank");
+    
     
   }
 
@@ -28,7 +28,7 @@ export default function GithubRepoCard({ repo, theme }) {
             e.preventDefault();
             setReadMore(!readMore);
           }}
-          
+          href="#"
            >{readMore?"Read Less":"Read More"}</a>
           
           <div className="publication-details">
