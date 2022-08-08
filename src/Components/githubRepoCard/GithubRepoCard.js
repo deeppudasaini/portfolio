@@ -36,11 +36,11 @@ export default function GithubRepoCard({ repo, theme }) {
           <p className="repo-description" style={readMore?{ color: theme.text}:{ color: theme.texts,WebkitLineClamp:2}} >
             {repo.description}
           </p>
-          <a onClick={(e)=>{
+          <a href="#" onClick={(e)=>{
             e.preventDefault();
             setReadMore(!readMore);
           }}
-          href="#"
+          
            >{readMore?"Read Less":"Read More"}</a>
           <div className="repo-details">
             <p
