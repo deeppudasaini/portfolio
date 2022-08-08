@@ -358,7 +358,7 @@ const experience = {
           company_url: "https://lipi.com.np/",
           logo_path: "lipi.png",
           duration: "July 2021 - October 2021",
-          location: "Balkumaru, Kathmandu",
+          location: "Balkumari, Kathmandu",
           description:
             "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
           color: "#0879bf",
